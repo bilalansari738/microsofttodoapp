@@ -1,0 +1,57 @@
+.mid-div{
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.task-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 239, 239);
+    border-radius: 5px;
+    padding: 5px;
+}
+.task-div input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid blue;
+}
+.input-btn button{
+    float: right;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+.items-container{
+    padding: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.items-container:hover{
+    background-color: gainsboro;
+}
+.items-container:active{
+    background-color: rgb(201, 201, 216);
+}
+.items{
+    list-style-type: none;
+}
+.items-container i{
+    float: right;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.items-container i:hover{
+    color: blue;
+}
+.color-blue{
+    color: blue;
+}
+.icon-start{
+    float: left !important;
+    margin-right: 10px;
+}
+.list-icon{
+    font-size: 22px;
+}
